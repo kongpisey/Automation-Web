@@ -30,5 +30,4 @@ def test_login_components():
     driver.find_element(By.NAME, "username").send_keys("admin.test")
     driver.find_element(By.NAME, "password").send_keys("2008" + Keys.ENTER)
 
-    driver.quit()
 test_login_components()
